@@ -1,5 +1,5 @@
 custom_build(
-    ref = 'dispatcher-service',
+    ref = 'dispatcher-service-v2',
     command = './gradlew bootBuildImage --imageName $EXPECTED_REF',
     deps = ['build.gradle', 'src']
 )
