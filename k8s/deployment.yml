@@ -15,8 +15,8 @@ spec:
         app: dispatcher-service
     spec:
       containers:
-        - name: fabricio211/dispatcher-service
-          image: dispatcher-service
+        - name: dispatcher-service
+          image: fabricio211/dispatcher-service
           imagePullPolicy: IfNotPresent
           lifecycle:
             preStop:

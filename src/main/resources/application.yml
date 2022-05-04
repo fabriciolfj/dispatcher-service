@@ -3,11 +3,11 @@ server:
 
 spring:
   rabbitmq:
-    host: ${SPRING_RABBITMQ_HOST:localhost}
+    host: localhost
     port: 5672
-    useraname: user
+    username: user
     password: password
-    connection-timeout: 5s
+    connection-timeout: 55s
   cloud:
     function:
       definition: pack|label
